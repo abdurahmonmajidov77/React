@@ -1,0 +1,278 @@
+.Header{
+    display: flex;
+    position: relative;
+    background: #F2F2F2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+}
+.Header img{
+    margin: 40px 0;
+}
+.HeaderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.HeaderContainer .div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.NavbarTitle{
+    font-size: 28px;
+    line-height: 21px;
+    color: #313131;
+}
+.NavbarList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarItem{
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #313131;
+    cursor: pointer;
+    transition: .7s;
+}
+.NavbarItem:hover{
+    color: #49AD09;
+}
+.NavbarItem1{
+    transition: .8s;
+    background: #49AD09;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.NavbarItem1:hover{
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.HeaderBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+.HeaderTitle{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #313131;
+}
+.HeaderTitle h1{
+    font-size: 78px;
+    color: #49AD09;
+    display: flex;
+}
+.HeaderTitle h1 h1{
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #313131;
+}
+.HeaderText{
+    font-size: 18px;
+    line-height: 147.9%;
+    text-align: center;
+    color: #514040;
+    margin: 20px 0;
+}
+.HeaderBtnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.HeaderBtn{
+    transition: .8s;
+    background: #49AD09;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 10px;   
+}
+.HeaderBtn:hover{
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.HeaderBtn:nth-child(2){
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #514040;
+    background: none;
+    transition: .8s;
+}
+.HeaderBtn:nth-child(2) i{
+    margin-left: 10px;
+}
+.HeaderBtn:nth-child(2):hover{
+    color: #49AD09;
+    box-shadow: none;
+}
+
+@media (max-width: 710px){
+    .NavbarList{
+        display: none;
+    }
+    .Navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 1080px){
+    .Header img{
+        display: none;
+    }
+    .HeaderContainer .div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.HeaderModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 20px;
+    width: 300px;
+    z-index: 3;
+    position: fixed;
+    display: none;
+}
+.HeaderModalTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.HeaderModalTop i{
+    font-size: 20px;
+}
+.HeaderModalMid{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderMidTitle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 10px;
+}
+.HeaderModalBot{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.HeaderBotText{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: 5px 0;
+    margin-top: 10px;
+}
+.HeaderBotInt{
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 8px 10px;
+}
+.HeaderIntBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.RadioIntText{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-right: 70px;
+    margin-left: 10px;
+}
+.HeaderIntBox input{
+    accent-color: #49AD09;
+}
+.HeaderBotBtn{
+    background: #49AD09;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    color: #FFFFFF;
+    transition: .8s;
+}
+.HeaderBotBtn:hover{
+    transform: scale(1.05);
+}
+.Overlay{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 2;
+    display: none;
+    top: 0;
+}
+.NavbarLc{
+    display: flex;
+}

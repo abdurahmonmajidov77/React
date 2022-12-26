@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul,ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  h1,h2,h3,h4,h5,h6,p,div{
+    cursor: default;
+  }
+  button{
+    cursor: pointer;
+  }
+  body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  
+.Header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.NavTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #7AC751;
+    color: #FFFFFF;
+    padding: 20px 40px;
+}
+.NavTop h2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.navTopList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.NavTopText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.NavMid{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px 40px;
+    align-items: center;
+}
+.NavMid img{
+    width: 170px;
+}
+.IntBox{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background: #7AC751;
+    border-radius:7px;
+    padding-right: 15px;
+}
+.MuiAutocomplete-hasPopupIcon.css-gcwvw8-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.css-gcwvw8-MuiAutocomplete-root .MuiOutlinedInput-root {
+    width: 500px;
+    background-color: white;
+    border: none;
+    margin: 0;
+}
+.IntBox i{
+    font-size: 20px;
+    color: white;
+    margin-left: 212px;
+    cursor: pointer;
+}
+.IconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IconBox i {
+    color: #555555;
+    font-size: 23px;
+    margin: 0 15px;
+    transition: .8s;
+    cursor: pointer;
+}
+.IconBox i:hover{
+    color: #7AC751;
+}
+.HeaderBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.HeaderSidebar{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+.SidTitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #7AC751;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+.SidLink{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #555555;
+    cursor: pointer;
+    margin: 8px 5px;
+    transition: .7s;
+}
+.SidLink:hover{
+    color: #7AC751;
+}
+.HeaderInbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HeaderINav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.HeaderIText{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    margin: 20px 30px;
+    color: #555555;
+    cursor: pointer;
+}
+.HeaderIBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    backdrop-filter: blur(77.5px);
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    padding-right: 10px;
+}
+.HeaderIItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+.HeaderIIText{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #7AC751;
+}
+.HeaderIITitle{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2F2F2F;
+    margin: 16px 0;
+}
+.HeaderIItem img{
+    width: 300px;
+}
+.HeaderIISubtext{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 26px;
+    color: rgba(81, 81, 81, 0.71);
+    margin: 10px 0;
+}
+.HeaderIIBnt{
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    background: #7AC751;
+    border-radius: 5px;
+    transition: .8s;
+}
+.HeaderIIBnt:hover{
+    background-color: white;
+    color: #7AC751;
+}
+.HIItem{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.56) 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+    margin-right: 5px;
+    padding: 10px 0;
+}
+.HIItem img{
+    width: 130px;
+}
+.HICost{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #7AC751;
+}
+.HIText{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+.HIIbtnBox{
+    width: 825px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    backdrop-filter: blur(77.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boble{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgba(122, 199, 81, 0.29);
+    margin: 10px;
+    border-radius: 666px;
+    transition: all .8s;
+}
+.Boble:hover{
+    background: #7AC751;
+}
+.HHH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: 100%;
+    padding: 40px;
+}
+.HHHItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.HHHItem img{
+    width: 50px;
+    margin: 10px;
+}
+.HHHTitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+.HHHText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: rgba(81, 81, 81, 0.71);
+}

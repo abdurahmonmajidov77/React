@@ -1,0 +1,103 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #F44336;
+    width: 100%;
+}
+.NavbarBot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.NavTitle{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NavTitle img{
+    width: 30px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.NavList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavItem{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.NavBList{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 15px 0;
+}
+.NavBItem{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 0 10px;
+    transition: .7s;
+}
+.NavBItem:hover{
+    color: #F44336;
+}
+.NavBSearchBox{
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+.NavBSearchBox input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    padding: 10px;
+    width: 500px;
+    color: #9A9AB0;
+}
+.NavBLa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.NavBLa i{
+    color: #000000;
+    font-size: 25px;
+    margin: 0 15px;
+    cursor: pointer;
+}

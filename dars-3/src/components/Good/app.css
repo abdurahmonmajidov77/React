@@ -1,0 +1,49 @@
+.GoodSlider{
+    display: flex;
+    width: 900px;
+    /* min-width: 500px; */
+}
+.GoodBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: #FFFFFF;
+    margin: 30px;
+    width: 900px;
+    flex-wrap: wrap;
+}
+.GoodBox img{
+    width: 280px;
+    margin-right: 20px;
+}
+.GoodTitle{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #F44336;
+}
+.GoodText{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    margin: 13px 0;
+    color: #9A9AB0;
+}
+.GoodSubtitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;   
+}
+.GoodSubtext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #515151;
+    margin-top: 7px;
+}

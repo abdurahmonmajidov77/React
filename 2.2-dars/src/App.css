@@ -1,0 +1,444 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+  cursor: default;
+}
+button{
+  cursor: pointer;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--white2);
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+.App{
+  width: 100%;
+}
+
+.SecLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.LogoList{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.LogoItem img{
+  width: 100px;
+  margin: 30px 70px;
+}
+.Container{
+  width: 100%;
+}
+.SecOur{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.OurText{
+  font-size: 18px;
+  line-height: 21px;
+  color: #514040;
+}
+.OurTitle{
+  font-size: 45px;
+  line-height: 53px;
+  color: #313131;
+  margin: 30px 0;
+  margin-top: 15px;
+}
+.OurList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.OurItem{
+  border: 1px solid #EDEDED;
+  border-radius: 5px;
+  padding: 0 20px;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  transition: .8s;
+}
+.OurItem:hover{
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+}
+.OurTopBox{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.OurTopTitle{
+  font-size: 22px;
+  line-height: 147.9%;
+  color: #313131;
+  margin-left: 10px;
+}
+.OurSubtext{
+  font-size: 18px;
+  line-height: 147.9%;
+  color: #514040;
+  margin: 20px 0;
+}
+.OurLink{
+  font-size: 16px;
+  line-height: 147.9%;
+  text-decoration-line: underline;
+  color: #313131;
+  transition: .8s;
+}
+.OurLink:hover{
+  color: #49AD09;
+}
+.OurBtn{
+  background: #49AD09;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  transition: .8s;
+  margin-top: 10px;
+}
+.OurBtn:hover{
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+
+.SecPro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+  margin-bottom: 10px;
+}
+.ProText{
+  font-size: 18px;
+  line-height: 21px;
+  color: #514040;
+}
+.ProTitle{
+  font-size: 45px;
+  line-height: 53px;
+  color: #313131;
+  margin: 30px 0;
+  margin-top: 15px;
+}
+.ProList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ProItem{
+  border-radius: 5px;
+  padding: 0 20px;
+  width: 380px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px; 
+}
+.ProItem{
+  width: 380px;
+  margin-bottom: 15px;
+}
+.ProBox{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.ProSubtext{
+  font-size: 20px;
+  line-height: 33px;
+  color: #000000; 
+}
+.ProSubLink{
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #49AD09;
+  cursor: pointer;
+}
+
+.SecCon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  position: relative;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+.ConBox{
+  position: absolute;
+  background: #e8e8e8aa;
+  width: 80%;
+  height: 400px;
+  z-index: -1;
+  margin-top: 100px;
+}
+.ConList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ConItem{
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 300px;
+  margin: 15px;
+  transition: .8s;
+}
+.ConItem:hover{
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+}
+.ConTitle{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #32435C;
+}
+.ConText{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  color: #6A635B;
+  margin: 15px 0;
+}
+.ConStar{
+  color: #FBB040;
+  margin-bottom: 10px;
+}
+.ConSubtitle{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #32435C;
+}
+.ConStairs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 70px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.ConStairs i{
+  border-radius: 50%;
+  padding: 14px;
+  color: #313131;
+  transition: .8s;
+}
+.ConStairs i:nth-child(1){
+  margin-right: 10px;
+}
+.ConStairs i:hover{
+  color: white;
+  background-color: #313131;
+}
+.ConSubext{
+  font-size: 18px;
+  line-height: 21px;
+  color: #514040;
+}
+.ConSubtitle1{
+  font-size: 45px;
+  line-height: 53px;
+  color: #313131;
+  margin-bottom: 50px;
+}
+
+.SecNed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+.NedTitle{
+  font-size: 45px;
+  line-height: 53px;
+  color: #313131;
+  margin-bottom: 20px;
+  width: 410px;
+  text-align: center;
+}
+.NedBtn{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FEFFFE;
+  background: #49AD09;
+  transition: .8s;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+
+}
+.NedBtn:hover{
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+.NedList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.NedItem{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+  justify-content: flex-start;
+}
+.NedItemTitle{
+  font-size: 20px;
+  line-height: 23px;
+  color: #1C1C1D;
+  margin-bottom: 10px;
+}
+.NedLink{
+  font-size: 16px;
+  margin: 8px 0;
+  cursor: pointer;
+  color: #313131;
+}
+.NedSubtitle{
+  color: #313131;
+}
+.NedText{
+  font-size: 16px;
+  line-height: 100%;
+  width: 150px;
+  color: #313131;
+  margin: 20px 0;
+}
+.NedBox{
+  display: flex;
+  justify-content: center;
+}
+.NedBox p{
+  color: #313131;
+  font-size: 20px;
+  background: #F2F2F2;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 7px;
+  transition: .8s;
+}
+.NedBox i{
+  color: #313131;
+  font-size: 20px;
+  background: #F2F2F2;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: .8s;
+  margin: 0 7px;
+}
+.NedBox i:hover{
+  color: #49AD09;
+}
+.NedBox p:hover{
+  color: #49AD09;
+}
+.NedBtn1{
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #514040;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .8s;
+}
+.NedBtn1 i{
+  margin-left: 20px;
+  border: 1px solid #514040;
+  border-radius: 50%;
+  padding: 3px;
+  transition: .8s;
+}
+.NedBtn1:hover{
+  color: #49AD09;
+}
+.NedBtn1:hover i{
+  border: 1px solid #49AD09;
+}
+.NedBigBox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-top: 1px solid #EDEDED;
+}
+.NedBigText{
+  font-size: 16px;
+  line-height: 100%;
+  color: #313131;
+}

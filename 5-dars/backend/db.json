@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Saidbek",
+      "age": 19,
+      "phone": "+998909090909",
+      "type": "Company",
+      "target": "Web devloper",
+      "record": 5
+    },
+    {
+      "id": 2,
+      "name": "Adam",
+      "age": 32,
+      "phone": "+998909090909",
+      "type": "Company",
+      "target": "Designer",
+      "record": 3.4
+    },
+    {
+      "id": 3,
+      "name": "Jhon",
+      "age": 24,
+      "phone": "+998909090909",
+      "type": "Company",
+      "target": "Admin",
+      "record": 5
+    },
+    {
+      "id": 4,
+      "name": "Herry",
+      "age": 17,
+      "phone": "+998909090909",
+      "type": "Workers",
+      "target": "Cleaner",
+      "record": 4.9
+    },
+    {
+      "id": 5,
+      "name": "Max",
+      "age": 27,
+      "phone": "+998909090909",
+      "type": "Workers",
+      "target": "Idea getter",
+      "record": 3.4
+    },
+    {
+      "id": 6,
+      "name": "Krech",
+      "age": 23,
+      "phone": "+998909090909",
+      "type": "Workers",
+      "target": "Ux/Ui designer",
+      "record": 4.1
+    },
+    {
+      "id": 7,
+      "name": "Frank",
+      "age": 13,
+      "phone": "+998909090909",
+      "type": "Finance",
+      "target": "Bugalter",
+      "record": 5.4
+    },
+    {
+      "id": 8,
+      "name": "Uw",
+      "age": 22,
+      "phone": "+998909090909",
+      "type": "Finance",
+      "target": "Counter",
+      "record": 2.4
+    },
+    {
+      "id": 9,
+      "name": "Sean",
+      "age": 21,
+      "phone": "+998909090909",
+      "type": "Finance",
+      "target": "Admin",
+      "record": 4.1
+    },
+    {
+      "id": 10,
+      "name": "Lara",
+      "age": 20,
+      "phone": "+998909090909",
+      "type": "Manager",
+      "target": "Manager",
+      "record": 5
+    },
+    {
+      "id": 11,
+      "name": "Barry",
+      "age": 24,
+      "phone": "+998909090909",
+      "type": "Manager",
+      "target": "Boss helper",
+      "record": 4.5
+    },
+    {
+      "id": 12,
+      "name": "Kavin",
+      "age": 44,
+      "phone": "+998909090909",
+      "type": "Manager",
+      "target": "Adustral",
+      "record": 3.5
+    }
+  ],
+  "Sidebar": [
+    {
+      "id": 1,
+      "Name": "Company"
+    },
+    {
+      "id": 2,
+      "Name": "Workers"
+    },
+    {
+      "id": 3,
+      "Name": "Finance"
+    },
+    {
+      "id": 4,
+      "Name": "Manager"
+    }
+  ]
+}

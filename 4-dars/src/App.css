@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5{
+  cursor: default;
+}
+.ItHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.ItNavbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.ItNavList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ItNavItem{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 255, 0.6);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: .8s;
+}
+.ItNavItem:hover{
+  background-color: white;
+  color: rgba(0, 0, 255, 0.5);
+}
+.ItMain{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+}
+.ItNavTitle{
+  margin-right: 30px;
+}
+.message:nth-child(1){
+  border-top-right-radius: 15px;
+}
+.message{
+  z-index: 49 !important;
+  color: white; 
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 255, 0.7);
+  margin: 2px;
+  margin-right: 20px;
+  padding: 8px;
+  border-radius: 15px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin-left: auto;
+  font-size: 16px;
+  transition:all .7s;
+}
+.message button{
+  font-size: 14px;
+  margin: 0 5px;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+  transition:all .7s;
+}
+.Btnv{
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.message button:nth-child(1):hover{
+  color: red;
+}
+.message button:nth-child(2):hover{
+  color: yellow;
+}
+.from{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from input,.input, .from1 input{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: rgba(193, 193, 193, 0.669);
+  margin: 10px;
+  border-radius: 10px;
+  transition: .8s;
+  width: 300px;
+}
+input:checked + input{
+  border-radius: 1px solid rgba(0, 0, 255, 0.7);
+}
+.SendBtn{
+  color: white;
+  background-color: rgba(0, 0, 255, 0.6);
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+  border: 1px solid white;
+}
+.SendBtn:hover{
+  background-color: white;
+  color: rgba(0, 0, 255, 0.6);
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 255, 0.6);
+}
+.Mono{
+  height: 350px;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  justify-content: end;
+}
+.Modal{
+  position: fixed;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 300px;
+  display: none;
+  z-index: 4;
+  box-shadow: 1px 1px 50px 12px rgba(0, 0, 0, 0.233);
+}
+.Overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.Overlay1{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  background: none;
+  display: none;
+}
+.from1{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal{
+  background: #3d3d3d;
+  color: white;
+}

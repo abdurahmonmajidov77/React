@@ -1,0 +1,26 @@
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.About img{
+    width: 400px;
+    margin: 20px 0;
+    margin-right: 50px;
+}
+.AboutTitle{
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.AboutText{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F44336;
+    margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+.slider{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.TopBox{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 90%;
+    height: 440px;
+    background: #E9E9EF;
+    border-radius: 6px;
+    padding: 15px;
+}
+.TopInbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.TopBox img{
+    width: 250px;
+}
+.TopSale{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 6px;   
+    width: 50px;
+}
+.TopInboxTitle{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FF0000;
+}
+.TopInboxText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    margin: 10px 0;
+    color: #FF0000;
+}
+.TopInbox{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #FF0000;
+}

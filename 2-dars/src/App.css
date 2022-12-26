@@ -1,0 +1,83 @@
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #49AD09;
+  color: white;
+  width: 250px;
+  padding: 20px;
+  padding-bottom: 35px;
+  margin: 100px;
+  border-radius: 10px;
+}
+.Title{
+  font-size: 24px;
+}
+.Int{
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #49AD09;
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+.in{
+  text-align: end;
+}
+.Int:placeholder{
+  color: rgb(66, 66, 66);
+}
+button{
+  background-color: #3c93068f;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+button:hover{
+  background-color: #3b7c13cc;
+}
+.Res{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+select{
+  background-color: #3c93068f;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.br{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.br div{
+  display: flex;
+}
+.br1{
+  display: flex;
+  flex-direction: column;
+}
+.btnCr{
+  padding: 8px 96px;
+}
+.btnC{
+  padding: 8px 79px;
+}

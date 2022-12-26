@@ -1,0 +1,754 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+  cursor: default;
+}
+button{
+  cursor: pointer;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--white2);
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #F5F5F5;
+}
+
+.Container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Overflow{
+  position: absolute;
+  width: 100%;
+  height: 370px;
+  left: 0px;
+  top: 0px;
+  background: #E1EEFB;
+  z-index: -1;
+}
+
+.Header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.NavbarTop{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.TopBox{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2B7BC6;
+  border-bottom: 2px dotted #2B7BC6;
+}
+.TopBox i{
+  color: yellow;
+  margin-right: 5px;
+}
+.TopBox1{
+  display: flex;
+}
+.TopInbox{
+  width: 20px;
+  height: 20px;
+  left: 832px;
+  background: #FFD600;
+  border-radius: 50%;
+  color: #2B7BC6;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.TopBox1 p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2B7BC6;
+  border-bottom: 2px dotted #2B7BC6;
+}
+
+.NavbarBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavbarLink{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2B7BC6;
+  margin: 0 7px;
+}
+
+.NavbarDown{
+  display: flex;
+  margin: 20px 0;
+}
+.NavbarLog{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  color: #FBFAF9;
+}
+.LogoBox{
+  display: flex;
+}
+.NavbarLog1{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  color: #2B7BC6;
+  background: #F1F8FF;
+}
+.NavbarLog:nth-child(1){
+  background-color: #004C93;
+}
+.NavbarLog:nth-child(2){
+  background-color: #1061AB;
+}
+.NavbarLog:nth-child(3){
+  background-color: #2B7BC6;
+}
+.IntBox{
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.IntBox input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px;
+  width: 700px;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+}
+.IntBox i{
+  color: #2B7BC6;
+}
+.HeaderBox{
+  display: flex;
+}
+.BigBoxTr{
+  display: flex;
+  color: white;
+}
+.BigBoxInto{
+  width: 740px;
+  height: 380px;
+  background: #004C93;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BigBoxTr i{
+  font-size: 25px;
+  color: gray;
+}
+.BigBoxImg{
+  margin: 15px;
+}
+.BigBoxTexts button{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  background: #FFD600;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.BigBoxTitle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+.BigBoxText{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.SmBoxTr{
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SmBoxTr:nth-child(1){
+  background-color: #1061AB;
+}
+.SmBoxTr:nth-child(2){
+  background-color: #3BB9B8;
+}
+.SmBoxImg{
+  width: 225px;
+  margin: 0 20px;
+}
+.SmBoxTitle{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.SmBoxBnt{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  border: none;
+  background: none;
+  outline: none;
+  margin-top: 10px;
+}
+.HeaderInfoList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.HeaderInfoItem{
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 230px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.HeaderInfoItem i{
+  font-size: 40px;
+  color: #3BB9B8;
+  margin-right: 10px;
+}
+
+.SectionHeader{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.SecTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  border-bottom: 1px solid #1061AB;
+  width: 280px;
+  margin: 30px 0;
+}
+.ImgInbox{
+  display: flex;
+  flex-direction: column;
+}
+.ImgInboxBx{
+  display: flex;
+}
+.ImgBox{
+  display: flex;
+}
+.ImgBxBig{
+  width: 586px;
+  margin: 10px;
+}
+.ImgBxMid{
+  width: 378px;
+  margin: 10px;
+}
+.ImgBxSm{
+  width: 180px;
+  margin: 10px;
+}
+.ImgTitleBox{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.ImgTitleBox1{
+  top: 1090px;
+  margin-left: 10px;
+}
+.ImgTitleBox2{
+  top: 890px;
+  margin-left: 10px;
+}
+.ImgTitleBox3{
+  top: 890px;
+  margin-left: 10px;
+}
+.ImgTitleBox4{
+  top: 1090px;
+  margin-left: 10px;
+}
+.ImgTitleBox5{
+  top: 1090px;
+  margin-left: 10px;
+}
+.ImgTitle{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: rgba(59, 185, 184, 0.8);
+  padding: 7px;
+}
+.ImgText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-left: 7px;
+}
+
+.SectionSc{
+  display: flex;
+  flex-direction: column;
+}
+.ScTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  border-bottom: 1px solid #1061AB;
+  width: 200px;
+  margin: 30px 0;
+}
+.ScNavbar{
+  display: flex;
+}
+.ScBtn{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  background: #3BB9B8;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin: 7px;
+  transition: .7s;
+}
+.ScNavBtn{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2B7BC6;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  margin: 7px;
+  transition: .7s;
+}
+.ScBtn:hover{
+  transform: scale(1.1);
+}
+.ScNavBtn:hover{
+  color: white;
+  background-color: #2B7BC6;
+}
+.ScList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#I{
+  background: #D5E0E6;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+.ScItem{
+  width: 235px;
+  margin: 4px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  transition: 0.7s;
+  height: 420px;
+}
+.ScItem:hover{
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.259);
+}
+.ScItemImg{
+  width: 200px
+}
+.ScItemStar{
+  width: 150px;
+  margin-right: auto;
+  margin-left: 10px;
+  margin: 7px 0;
+}
+.ScItemTitle{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.ScItemText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.ScCostBox{
+  display: flex;
+  justify-content: space-between;
+}
+.ScCost{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000
+}
+.ScCost1{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  color: #EA1649;
+}
+.ScListbtn{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #2B7BC6;
+  border: 1px solid #2B7BC6;
+  border-radius: 4px;
+  padding: 8px 10px;
+  transition: .7s;
+}
+.ScListbtn:hover{
+  color: white;
+  background-color: #2B7BC6;
+}
+.SccTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  border-bottom: 1px solid #1061AB;
+  width: 100px;
+  margin: 30px 0;
+}
+.SccCostN{
+  padding: 5px 7px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 10px;
+  color: #000000;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.SectionScc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  background: #EAF4FF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SectionBtn{
+  width: 100%;
+  padding: 20px;
+}
+.SectionBtnBt{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  background: #2B7BC6;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.SecBlend{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1260px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.BlendTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  border-bottom: 1px solid #1061AB;
+  width: 310px;
+  margin: 30px 0;
+  margin-left: 20px;
+}
+.BlendList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.BlendItem{
+  width: 180px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  margin: 5px;
+  transition: .7s;
+}
+.BlendItem:hover{
+  transform: scale(1.1);
+}
+
+.SecSat{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background: #EAF4FF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SatTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  border-bottom: 1px solid #1061AB;
+  width: 100px;
+  margin: 30px 0;
+}
+.SatList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SatImg{
+  width: 260px;
+}
+.SatItem{
+  width: 260px;
+  height: 280px;
+  margin: 10px;
+  background-color: white;
+  transition: 0.7s;
+}
+.SatItem:hover{
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.259);
+}
+.SatTitle1{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 5px;
+}
+.SatBookList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.BookTitle{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+.SetBookItem{
+  background: #3BB9B8;
+  padding: 30px;
+  height: 500px;
+  color: white;
+  width: 850px;
+  margin-left: 100px;
+  position: relative;
+}
+.BookImg{
+  width: 500px;
+  position: absolute;
+  bottom: 200px;
+  right: 550px;
+}
+.BookText{
+  width: 470px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: auto;
+}
+
+.SecBot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #FFFFFF;
+}
+.BotList{
+  display: flex;
+  justify-content: space-between;
+  width: 1290px;
+  padding: 0 30px;
+}
+.BotItem{
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+}
+.BotLink{
+  font-weight: 500;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #2B7BC6;
+}
+.BotImg1{
+  margin: 10px 0;
+}
+.BotLogoText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #99A3A9;
+}
+.BotTitle{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 40px;
+  color: #000000;
+}
+.BotBtn{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #1061AB;
+  border: 1px solid #1061AB;
+  border-radius: 4px;
+  background: none;
+  transition: .7s;
+  margin: 10px 0;
+}
+.BotBtn:hover{
+  background-color: #1061AB;
+  color: white;
+}
+.BotText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+}
+.FaList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+.FaList i{
+  font-size: 28px;
+  margin: 10px;
+  transition: .7s;
+}
+.FaList i:hover{
+  color: #2B7BC6;
+}
+.BotImg2{
+  width: 120px;
+  margin-top: auto;
+}
+
+.SecBet{
+  width: 100%;
+  padding: 40px;
+}
+.BetText1{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #99A3A9;
+}
+.BetText2{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #99A3A9;
+  margin-top: 20px;
+}

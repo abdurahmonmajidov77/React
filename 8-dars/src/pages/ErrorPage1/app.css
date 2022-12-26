@@ -1,0 +1,38 @@
+.Error{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Error img{
+    width: 550px;
+}
+.Error h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.Error p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.Error .Buto{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #FFFFFF;
+    background: #DB0C26;
+    padding: 5px 10px;
+    margin-top: 10px;
+    box-shadow: 0px 8px 32px rgba(0, 16, 41, 0.05);
+    border-radius: 4px;
+}
+.Error .Buto:hover{
+    background-color: #750B0A;
+}

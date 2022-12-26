@@ -1,0 +1,146 @@
+.ShopHead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 80px 30px;
+}
+.ShopHead img{
+    width: 500px;
+    margin-right: 30px;
+}
+.ShopBoxHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ShopTitleHead{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+}
+.ShopTextHead{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #515151;
+    margin: 25px 0;
+}
+.ShopBtnHead{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #F44336;
+    border-radius: 8px;
+    transition: .7s;
+}
+.ShopBtnHead:hover{
+    color: #F44336;
+    background: none;
+}
+
+.ShopListBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 20px;
+}
+.ShopList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+}
+.ShopItem{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 350px;
+    height: 480px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 15px;
+}
+.ShopItem i{
+    color: #F3692E;
+    background: #FFDDD3;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+}
+.ShopItem img{
+    width: 270px;
+}
+.ShopItemBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+.ShopItemTitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin: 7px 0;
+    color: #11142D;
+}
+.ShopRate{
+    color: #F86338;
+}
+.ShopItemText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.008em;
+    margin: 6px 0;
+    color: #9A9AB0;
+}
+.ShopCost{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #F3692E;
+}
+.ShopListBtn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #F44336;
+    border-radius: 8px;
+    transition: .7s;
+}
+.ShopListBtn:hover{
+    color: #F44336;
+    background: none;
+}

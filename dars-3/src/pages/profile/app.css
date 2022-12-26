@@ -1,0 +1,135 @@
+.Pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 130px;
+}
+.ProName{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1A1A1A;
+}
+.ProIn{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin: 5px 0;
+}
+.ProIn i{
+    margin-right: 3px;
+}
+.ProInfoBtn{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    outline: none;
+    color: #1A1A1A;
+    border: 1px solid rgb(57, 57, 108);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .7s;
+    margin: 20px 0;
+}
+.ProInfoBtn:hover{
+    border: 1px solid;
+    border-radius: 0;
+}
+.ProCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ProCartTitle{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin: 20px 0;
+}
+.ProCartList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ProCartItem{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    transition: .7s;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ProCartItem:hover{
+    border: 2px solid #FED700;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.16), 0px 0.5px 2px rgba(96, 97, 112, 0.24);
+}
+.ProCartItem:nth-child(3){
+    background: rgba(236, 239, 241, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ProItemTop{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.ProItemTop div{
+    display: flex;
+}
+.ProLogo{
+    margin-right: 10px;
+    font-size: 11px;
+    color: blue;
+    font-weight: 400;
+}
+.ProItemTopTitle{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 14px;
+    color: #1A1A1A;
+}
+.ProItemTop i{
+    color: #263238;
+}
+.ProItemBot{
+    display: flex;
+}
+.ProItemText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7B8E98;
+}
+.ProItemBot i{
+    color: #7B8E98;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.ProBotBtn{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    outline: none;
+    color: #1A1A1A;
+    border: 1px solid rgb(57, 57, 108);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .7s;
+    margin: 20px 0;
+    width: 100px;
+}
+.ProBotBtn:hover{
+    border: 1px solid;
+    border-radius: 0;
+}

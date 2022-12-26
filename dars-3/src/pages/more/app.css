@@ -1,0 +1,255 @@
+.More{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.MoreTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.MoreTopEnt{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 30px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-right: auto;
+}
+.MoreTopBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.MoreTopInbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.MoreTopInbox:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.moretopimg{
+    width: 450px;
+    margin-bottom: 15px;
+}
+.MoreImgsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MoreImgsBox img{
+    width: 140px;
+    background: #E2E2EA;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.MoreTopInboxTitle{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.MoreTopRate{
+    color: #F44336;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.MoreTopCost{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #F44336;
+}
+.MoreTopDet{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;   
+}
+.MoreTopInboxText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #666666;
+    width: 500px;
+}
+.MoreTopInboxBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px 0;
+}
+.moremore{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.moremore1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.moremore2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #F44336;
+}
+.MoreTopBtnBox{
+    display: flex;
+    margin: 10px 0;
+}
+.MoreTopBtn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #F44336;
+    border-radius: 8px;
+    transition: .7s;
+    margin: 10px;
+}
+.MoreTopBtn:hover{
+    color: #F44336;
+    background: none;
+}
+.MoreTopBtn2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    background-color: #FFFFFF;
+    width: 160px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #F44336;
+    border-radius: 8px;
+    transition: .7s;
+    margin: 10px;
+    border: 1px solid #F44336;
+}
+.MoreTopBtn2:hover{
+    background-color: #F44336;
+    color: white;
+}
+.MoreBot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+.MoreBTitle{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.MoreBText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    margin: 15px 0;
+    margin-bottom: 22px;
+    width: 450px;
+}
+.MoreBList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.MoreBItem{
+    width: 300px;
+    margin: 15px;
+}
+.MoreBItemTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MoreBItemTitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.MoreBRate{
+    color: #F3692E;
+}
+.MoreBItemText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+.MoreBItemImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MoreBItemImg img{
+    width: 60px;
+    padding: 5px;
+    background: #E2E2EA;
+    border-radius: 4px;
+    margin: 5px;
+}
+.MoreBItemSubtext{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    color: #515151;
+}
+.MoreBimgj{
+    width: 380px;
+}
+.MoreBInbox:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    background: #E2E2EA;
+    border-radius: 8px;
+    height: 900px;
+    margin-left: 40px;
+}

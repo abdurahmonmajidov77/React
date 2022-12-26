@@ -1,0 +1,40 @@
+{
+  "movies":[
+    {
+      "id": 1,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671986809/assets/Json_3_req90j.png",
+      "title": "The Rings of Power"
+    },
+    {
+      "id": 2,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671986782/assets/Json_2_yokr9w.png",
+      "title": "Nope"
+    },
+    {
+      "id": 3,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671987225/assets/Json_4_x9pudl.png",
+      "title": "Tente"
+    },
+    {
+      "id": 4,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671986486/assets/Json_1_xxdfal.png",
+      "title": "Dark"
+    },
+    {
+      "id": 5,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671986757/assets/Json_cmjaso.png",
+      "title": "Squid Game"
+    },
+    {
+      "id": 6,
+      "video": "https://res.cloudinary.com/dnuh1ejtz/video/upload/v1672039771/assets/Spotify_Isaev_Workshop_gwxtvs.mp4",
+      "image": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1671989970/assets/Json_5_bncohv.png",
+      "title": "Only Murder"
+    }
+  ]
+}

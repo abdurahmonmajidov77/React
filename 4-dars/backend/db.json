@@ -1,0 +1,84 @@
+{
+  "group": [
+    {
+      "id": 1,
+      "groupName": "item-1"
+    },
+    {
+      "id": 2,
+      "groupName": "item-2"
+    },
+    {
+      "id": 3,
+      "groupName": "item-3"
+    },
+    {
+      "id": 4,
+      "groupName": "item-4"
+    },
+    {
+      "groupName": "Item-5",
+      "id": 5
+    },
+    {
+      "groupName": "Item-6",
+      "id": 6
+    },
+    {
+      "groupName": "Item-7",
+      "id": 7
+    }
+  ],
+  "messages": [
+    {
+      "id": 3,
+      "groupId": 2,
+      "message": "Hi"
+    },
+    {
+      "id": 4,
+      "groupId": 2,
+      "message": "Hola"
+    },
+    {
+      "id": 5,
+      "groupId": 3,
+      "message": "Bonjur"
+    },
+    {
+      "id": 6,
+      "groupId": 3,
+      "message": "Assalomu Alaykum"
+    },
+    {
+      "groupId": "4",
+      "message": "Koni chua",
+      "id": 8
+    },
+    {
+      "groupId": "6",
+      "message": "Juo ku",
+      "id": 30
+    },
+    {
+      "groupId": "5",
+      "message": "Zdrasvuyte",
+      "id": 31
+    },
+    {
+      "groupId": "4",
+      "message": "Ni hao",
+      "id": 32
+    },
+    {
+      "groupId": "5",
+      "message": "Marhaban",
+      "id": 33
+    },
+    {
+      "groupId": "7",
+      "message": "Nima gap",
+      "id": 34
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+  cursor: default;
+}
+button{
+  cursor: pointer;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.Login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.Login img{
+  width: 37.55%;
+  margin-right: auto;
+}
+.LoginBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  padding-right: 200px;
+  margin-right: auto;
+  height: 400px;
+}
+.LoginTitle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.LoginInbox input{
+  border: none;
+  outline: none;
+  width: 300px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #3a3a3a;
+  transition: .7s;
+}
+.LoginBtn{
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.115em;
+  color: black;
+  margin-top: auto;
+  padding: 6px 90px;
+  background: none;
+  transition: all .7s;
+  border-radius: 2px;
+}
+.LoginBtn:hover{
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #0F3A6D 0%, #7EFE19 100%);
+}
+.Page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.erore{
+  color: red;
+  margin: 5px;
+  font-size: 20px;
+}
+.Admin{
+  display: flex;
+  align-items: center;
+}
+.Sidebar{
+  background: #2A3042;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.Sidebar img{
+  width: 100px;
+}
+.sideTitle{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.Atext{
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 18px;
+  color: #C4C0C0;
+  margin-right: auto;
+}
+.btnBox{
+  margin-top: 10px;
+  margin-right: 180px;
+}
+.AItem{
+  border: none;
+  outline: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #C3C0C0;
+  padding: 6px;
+  transition: .8s;
+}
+.AItem i {
+  margin-right: 6px;
+}
+.AItem:hover{
+  margin-left: 10px;
+}
+.Main{
+  width: 100%;
+  padding: 25px;
+}
+.MainTitle{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #494949;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.MainBox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FFFDFD;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.MainBoxTop{
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MainTopTitle{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+}
+.MainTopBtn{
+  border: none;
+  outline: none;
+  background: #007BFF;
+  border-radius: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 7px 15px;
+  transition: .8s;
+}
+.MainTopBtn i{
+  margin-right: 6px;
+}
+.MainTopBtn:hover{
+  background: none;
+  color: #007BFF;
+}
+.MainBoxMid{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 30px;
+  align-items: center;
+  background: #2A3042;
+}
+.MainMidList{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.MainMidTitle{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 26px;
+  color: #FEFEFE;
+}
+.act{
+  margin: 0 20px;
+  margin-left: 170px;
+}
+.MainBot{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  height: 350px;
+  align-items: center;
+}
+.MainbotItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E1E0E2;
+  width: 100%;
+  padding: 12px;
+}
+.mainbottext{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #575757;
+}
+.btnnbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainbtnbot{
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #007BFF;
+  border-radius: 35px;
+  padding: 8px;
+  margin: 0 5px;
+  transition: .8s;
+}
+.mainbtnbot:hover{
+  background: none;
+  color: #007BFF;
+}
+.Overlay{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: fixed;
+  background-color: #00000041;
+  display: none;
+}
+.modal{
+  background: #FFFFFF;
+  border-radius: 15px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  z-index: 4;
+  
+}
+.modTitle{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #000000;
+}
+.modText{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.modal input{
+  border: none;
+  outline: none;
+  width: 300px;
+  background: rgba(123, 151, 206, 0.06);
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 6px;
+}
+.modLink{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.modBox{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.modBox input{
+  width: 20px;
+}
+.modBtn{
+  border: none;
+  outline: none;
+  background: #007BFF;
+  border-radius: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 7px 15px;
+  transition: .8s;
+}
+.modBtn:hover{
+  background-color: #007bffdc;
+}

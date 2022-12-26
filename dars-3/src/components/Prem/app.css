@@ -1,0 +1,114 @@
+
+.Prem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 20px;
+}
+.PreTitle{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin-top: 20px;
+}
+.PreNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.PreNavItem{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    margin: 7px 15px;
+    transition: .7s;
+}
+.PreNavItem:hover{
+    color: #F44336;
+}
+.PreList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.PreItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    background: #FFFFFF;
+    padding: 35px 30px;
+    margin: 15px;
+    transition: .7s;
+}
+.PreItem:hover{
+    transform: scale(1.02);
+}
+.PreItem img{
+    width: 280px;
+}
+.PreItemText{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    margin: 10px 0;
+}
+.PreItemTitle{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+.PreItemBtn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #F44336;
+    border-radius: 25px;
+    transition: .7s;
+    margin-top: 10px;
+}
+.PreItemBtn:hover{
+    color: #F44336;
+    background: none;
+}
+.PreBtn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 150px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #F44336;
+    border-radius: 8px;
+    transition: .7s;
+    margin-top: 20px;
+}
+.PreBtn:hover{
+    color: #F44336;
+    background: none;
+}

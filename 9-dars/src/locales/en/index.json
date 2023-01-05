@@ -1,0 +1,82 @@
+{
+    "Navbar":{
+        "0": "Home",
+        "1": "About",
+        "2": "Product",
+        "3": "Blog",
+        "4": "Shop",
+        "5": "Contact Us"
+    },
+    "Header":{
+        "0": "Favorite Brands",
+        "1": "An exciting place",
+        "2": "for the whole family to shop.",
+        "3": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+        "4": "Shop Now"
+    },
+    "Style":{
+        "0": "Always in style!",
+        "1": "The standard chunk of Lorem Ipsum below for those interested. The standard chunk of for those interested."
+    },
+    "Dron":{
+        "0": "Get up to 20% off Today Only!",
+        "1": "Get up to 30% off Today Only!",
+        "2": "THE 4K HDR COMPACT DRONE",
+        "3": "THE 4K HDR COMPACT Camera",
+        "4": "Show Now"
+    },
+    "Opa":{
+        "0": "about Products",
+        "1": "About For Products",
+        "2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly have suffered believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+        "3": "There are many variations of passages of Lorem Ipsum",
+        "4": "There are many variations of passages of Lorem  Embarrassing middle of text.",
+        "5": "There are many variations of passages"
+    },
+    "New":{
+        "0": "New Products",
+        "1": "Popular Products",
+        "2": "Recent arrival",
+        "3": "best sellers",
+        "4": "special offers",
+        "5": "featured in",
+        "6": "Get up to 10% off Today Only!",
+        "7": "Get up to 20% off Today Only!",
+        "8": "Get up to 50% off Today Only!",
+        "9": "Apple Mouse",
+        "10": "Black iPhone Speaker",
+        "11": "iOS Keyboard",
+        "12": "Mackbook Pro",
+        "13": "Black Headphone",
+        "14": "iPhone Speaker",
+        "15": "view all"
+    },
+    "Shop":{
+        "0": "New shop",
+        "1": "An enormous storehouse of facts",
+        "2": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
+    },
+    "Us":{
+        "0": "User Contact",
+        "1": "Contact Us for those interested.",
+        "2": "The standard chunk of Lorem Ipsum used since the is reproduced below for those interested.",
+        "3": "Enter your email address",
+        "4": "SUBSCRIBE"
+    },
+    "Foot":{
+        "0": "STORE - worldwide fashion store since 1978. We sell over 1000+ branded products on our web-site.",
+        "1": "INFORMATION",
+        "2": "New Collection",
+        "3": "About Store",
+        "4": "Contact Us",
+        "5": "Latest News",
+        "6": "Our Sitemap",
+        "7": "Orders History",
+        "8": "FOOTER MENU",
+        "9": "Terms & Conditions",
+        "10": "Purchase Theme",
+        "11": "USEFUL LINKS",
+        "12": "ABOUT THE STORE",
+        "14": "Instagram profile"
+    }
+}

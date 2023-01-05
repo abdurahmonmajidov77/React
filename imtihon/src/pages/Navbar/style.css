@@ -1,0 +1,25 @@
+.Navbar{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    background-color: var(--black-gray);
+    justify-content: end;
+    align-items: center;
+}
+.Navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar li{
+    font-weight: 700;
+    font-size: 22px;
+}
+.NavLink{
+    color: var(--white-gray);
+    padding: 10px 20px;
+    transform: skew(-15deg);
+}
+.NavLink:hover{
+    background-color: var(--red);
+}

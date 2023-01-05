@@ -1,0 +1,119 @@
+.SideBlog{
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SideBInt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SideBInt input{
+    background: #D9D9D9;
+    padding: 10px;
+    font-size: 18px;
+}
+.SideBInt button{
+    color: white;
+    background: #A41B1B;
+    font-size: 18px;
+    padding: 10px;
+}
+.SideBInt button:hover{
+    opacity: .7;
+}
+.SideMain{
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+}
+.SideMain h3{
+    font-weight: 800;
+    font-size: 24.2545px;
+    line-height: 29px;
+    margin: 10px;
+}
+.SideMain ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SideMain ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.SideMain ul li img{
+    width: 90px;
+    margin-right: 5px;
+}
+.SideTe h4{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+}
+.BlogSDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.BlogSDate h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.SideBTag{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.SideBTag h3{
+    font-weight: 800;
+    font-size: 25.3091px;
+    line-height: 31px;
+}
+.SideBTagBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.SideBTagBtn button{
+    font-weight: 800;
+    font-size: 14.7636px;
+    line-height: 18px;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: white;
+    margin: 5px 2px;
+}
+.SideBTagBtn button:hover{
+    opacity: .8;
+}
+.SideBIcons{
+    border: 1px solid white;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.SideBNews{
+    border: 1px solid white;
+    padding: 8px;
+    margin: 10px 0;
+}
+.SideBNews h3{
+    font-weight: 800;
+    font-size: 25.3091px;
+    line-height: 31px;
+}
+.SideBNews p{
+    font-weight: 400;
+    font-size: 12.76px;
+    line-height: 15px;
+    text-align: center;
+    margin: 5px 0;
+}

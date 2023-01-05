@@ -1,0 +1,59 @@
+.Us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+}
+.UsBox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+.UsBox h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+.UsBox h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+.UsBox p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.6;
+}
+.UsBox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UsBox1 input{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    width: 250px;
+}
+.UsBox1 button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 7px 20px;
+}
+.UsBox1 button:hover{
+    background: none;
+    color: var(--blue);
+}

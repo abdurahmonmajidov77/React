@@ -1,0 +1,27 @@
+.View{
+    width: 100%;
+}
+.VHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+.VHeader img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.VHeader h1{
+    font-weight: 700;
+    font-size: 47.4545px;
+    line-height: 57px;
+}
+.VMain{
+    padding: 20px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: start;
+}

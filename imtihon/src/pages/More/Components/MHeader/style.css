@@ -1,0 +1,72 @@
+.MHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+.MHeader img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.MHeader h1{
+    font-weight: 700;
+    font-size: 47.4545px;
+    line-height: 57px;
+}
+.MHTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MHTexts h1{
+    font-weight: 700;
+    font-size: 47.4545px;
+    line-height: 57px;
+}
+.MHTIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+.MHTIBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18.45px;
+    line-height: 22px;
+}
+.MHTIBox i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.MHBrands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MHBrands button i{
+    margin-right: 5px;
+}
+.MHBrands button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.MHBrands button:hover{
+    color: black;
+    background-color: white;
+}

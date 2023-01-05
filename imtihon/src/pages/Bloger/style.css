@@ -1,0 +1,27 @@
+.Bloger{
+    width: 100%;
+}
+.BHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+.BHeader img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.BHeader h1{
+    font-weight: 700;
+    font-size: 47.4545px;
+    line-height: 57px;
+}
+.BMain{
+    padding: 30px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: start;
+}

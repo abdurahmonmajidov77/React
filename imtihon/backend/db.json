@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project name",
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596574/Note_opxazo.png"
+    },
+    {
+      "id": 2,
+      "name": "Project name",
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596533/MacBook_y1zcjz.png"
+    },
+    {
+      "id": 3,
+      "name": "Project name",
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596574/Note_opxazo.png"
+    },
+    {
+      "id": 4,
+      "name": "Project name",
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596533/MacBook_y1zcjz.png"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596586/Life_pxrjbo.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    },
+    {
+      "id": 2,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596603/Beach_qz6m9m.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    },
+    {
+      "id": 3,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596586/Life_pxrjbo.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    },
+    {
+      "id": 4,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596603/Beach_qz6m9m.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    },
+    {
+      "id": 5,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596586/Life_pxrjbo.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    },
+    {
+      "id": 6,
+      "img": "https://res.cloudinary.com/dnuh1ejtz/image/upload/v1672596603/Beach_qz6m9m.png",
+      "title": "Lorem  sit amet consectetur.",
+      "text": "Lorem ipsum dolor sit amet consectetur. Pellentesque tempor sociis venenatis eu amet. Amet id venenatis massapretium ..",
+      "name": "By saikat mondal",
+      "date": "4 Nov 2022"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "Name",
+      "email": "Email@gmail.com",
+      "message": "Hello"
+    },
+    {
+      "id": 2,
+      "name": "Sure",
+      "email": "EmailSure@gmail.com",
+      "message": "What's Up"
+    },
+    {
+      "name": "Asd",
+      "email": "Asd@gmail.com",
+      "message": "Hi bro",
+      "id": 3
+    },
+    {
+      "name": "asd",
+      "email": "asd@gmail.com",
+      "message": "asklda",
+      "id": 4
+    },
+    {
+      "name": "Hi",
+      "email": "He@g.com",
+      "message": "Hey What's up mean",
+      "id": 5
+    },
+    {
+      "name": "Abdulloh",
+      "email": "ibrohimovabdulloh573@gmail.com",
+      "message": "Nima GAP Bro",
+      "id": 6
+    }
+  ]
+}

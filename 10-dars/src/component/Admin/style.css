@@ -1,0 +1,84 @@
+.Admin{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.AdminNav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding: 30px 50px;
+}
+.AdminNav h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+.Admin table{
+    padding: 20px;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    border-radius: 10px;
+}
+.Tab{
+    padding: 40px;
+    width: 100%;
+}
+.Admin th{
+    font-size: 22px;
+}
+.Admin td{
+    font-size: 19px;
+}
+.Admin td p{
+    margin: 10px;
+    text-align: center;
+}
+.Admin td button{
+    background-color: rgba(0, 0, 0, 0.727);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 0 5px;
+    transition: .8s;
+}
+.Admin td button:hover{
+    opacity: .3;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    border-radius: 6px;
+}
+.fror{
+    padding:0 40px;
+}
+.form input{
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.727);
+}
+
+.form button{
+    background-color: rgba(0, 0, 0, 0.727);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 0 5px;
+    transition: .8s;
+}
+.form button:hover{
+    opacity: .3;
+}
+.btnBoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

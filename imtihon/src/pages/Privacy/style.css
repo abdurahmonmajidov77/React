@@ -1,0 +1,91 @@
+.Privacy{
+    width: 100%;
+}
+.Privacy .PHeader{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.PHeader img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.PHeader .PriTexts h1{
+    font-weight: 700;
+    font-size: 47.4545px;
+    line-height: 57px;
+    text-align: center;
+}
+.PHeader .PriTexts p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    margin-top: 2px;
+}
+.PriPBox{
+    background-color: var(--gray);
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PriPBox p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+.PriTable{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.PriTable h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 61px;
+    margin: 7px 0;
+}
+.PriTable ul{
+    padding: 10px;
+}
+.PriTable li{
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.PriTable li h3{
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+.PriInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+.PriInfo h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 63px;
+}
+.PriInfo h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 63px;
+}
+.PriInfo p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

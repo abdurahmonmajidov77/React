@@ -1,0 +1,46 @@
+.Messageas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Messageas h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    margin: 15px 0;
+}
+.Messageas form{
+    width: 500px;
+}
+.Messageas form input{
+    background-color: var(--card);
+    color: black;
+    padding: 13px 20px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.Messageas form p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 5px 0;
+}
+.Messageas form button{
+    background: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 41px;
+    padding:5px 20px;
+    border: 1px solid var(--gray);
+    border-radius: 25px;
+    margin: 15px 170px;
+    width: 150px;
+}
+.Messageas form button:hover{
+    border: 1px solid white;
+}

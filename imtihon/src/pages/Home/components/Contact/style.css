@@ -1,0 +1,153 @@
+.Contact{
+    width: 100%;
+    padding: 40px;
+}
+.Contact h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin: 10px;
+}
+.ContactBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContactBox img{
+    width: 500px;
+    margin: 20px;
+    margin-right: 50px;
+}
+.ContactTexts h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.ContactTexts p{
+    font-weight: 400;
+    font-size: 21px;
+    width: 400px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 10px 2px;
+}
+.NavBtn{
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 7px;
+}
+.NavBtn:hover{
+    background-color: var(--white);
+    color: black;
+}
+.ContactBrands{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.ContactBrands i{
+    background: none;
+    color: white;
+    font-size: 33px;
+    margin: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+.ContactBrands i:nth-child(1):hover{
+    color: rgb(74, 74, 255);
+}
+.ContactBrands i:nth-child(2):hover{
+    color: rgb(125, 125, 255);
+}
+.ContactBrands i:nth-child(3):hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.Skill{
+    width: 100%;
+    height: 750px;
+}
+.Skill h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin: 15px;
+    text-align: center;
+}
+.SkillBoxw{
+    width: 100%;
+    padding: 20px 40px;
+}
+.Skill img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.SkillBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.SkillTexts{
+    margin-right: 50px;
+}
+.SkillTexts p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    width: 400px;
+    margin: 10px;
+}
+.SkillTexts button{
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 13px;
+}
+.SkillTexts button:hover{
+    background-color: var(--white);
+    color: black;
+}
+.SkillBox ul{
+    display: flex;
+    flex-direction: column;
+}
+.SkillBox li{
+    border-bottom: 3px solid white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 42px;
+}
+.SkillBox li p{
+    border: none;
+    text-decoration-line: none;
+}
+.SkillBox li:nth-child(1){
+    width: 380px;
+}
+.SkillBox li:nth-child(2){
+    width: 300px;
+}
+.SkillBox li:nth-child(3){
+    width: 320px;
+}
+.SkillBox li:nth-child(4){
+    width: 380px;
+}
+.SkillBox li:nth-child(5){
+    width: 200px;
+}

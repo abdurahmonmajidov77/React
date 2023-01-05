@@ -1,0 +1,22 @@
+.MMain{
+    padding: 30px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: start;
+    margin-left: auto;
+}
+.MMainBox{
+    padding: 30px;
+    margin: 10px;
+    border:  3px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.MMainBox h2{
+    font-size: 40px;
+    margin: 10px 0;
+}
+.MMainBox p{
+    font-size: 25px;
+}

@@ -1,0 +1,50 @@
+.Shop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    color: var(--black);
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.Shop h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+.Shop h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+.Shop p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.6;
+    width: 400px;
+}
+.Shop ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Shop li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Shop .UsImg{
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}

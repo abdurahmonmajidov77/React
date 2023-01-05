@@ -1,0 +1,56 @@
+.header .container{
+    background: var(--white);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.header span{
+    color: var(--blue);
+    display: flex;
+    font-weight: 600;
+    font-size: 41px;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.header span h5{
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin: 0 20px;
+}
+.header span h5 p{
+    margin-left: 15px;
+    text-decoration-line: line-through;
+}
+.header h2{
+    margin: 5px 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 41px;
+    width: 400px;
+}
+.header p {
+    width: 400px;
+    color: var(--gray);
+}
+.header img{
+    width: 500px;
+}
+button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 7px 20px;
+    width: 110px;
+}
+button:hover{
+    background: none;
+    color: var(--blue);
+}

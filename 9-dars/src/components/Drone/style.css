@@ -1,0 +1,59 @@
+.Drone{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    padding: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.DroneBox img{
+    width: 300px;
+}
+.DroneBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--liner);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+.DroneBox:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 100px 80px rgba(191, 191, 191, 0.07), 0px 41.7776px 33.4221px rgba(191, 191, 191, 0.0503198), 0px 22.3363px 17.869px rgba(191, 191, 191, 0.0417275), 0px 12.5216px 10.0172px rgba(191, 191, 191, 0.035), 0px 6.6501px 5.32008px rgba(191, 191, 191, 0.0282725), 0px 2.76726px 2.21381px rgba(191, 191, 191, 0.0196802);
+}
+.DroneBox p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: var(--white);
+    opacity: 0.6;
+}
+.DroneBox h3{
+    font-weight: 600;
+    font-size: 31px;
+    color: var(--white);
+    line-height: 40px;
+}
+.DroneTexts{
+    margin-right: 20px;
+}
+.DroneTexts button{
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.DroneTexts button:hover{
+    opacity: 0.6;
+}

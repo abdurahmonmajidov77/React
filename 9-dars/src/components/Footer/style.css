@@ -1,0 +1,67 @@
+.Foot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px;
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 50px;
+}
+.Foot ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Foot img{
+    width: 70px;
+}
+.Foot li{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+}
+.Foot li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.Foot li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 0.6;
+    color: var(--white);
+    margin: 5px 0;
+}
+.Foot li a:hover{
+    color: var(--white);
+    opacity: 10;
+}
+.Foot h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.FootLinkBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FootLinkBox i{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    opacity: 0.6;
+    color: var(--white);
+    margin: 10px;
+}
+.FootLinkBox i:hover{
+    color: var(--white);
+    opacity: 10;
+}

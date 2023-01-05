@@ -1,0 +1,61 @@
+.Sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.SignBox{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+.SignBoxe{
+    width: 660px;
+    height: 100vh;
+    background-color: var(--black-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.SignBoxe img{
+    width: 500px;
+}
+.Sign form{
+    display: flex;
+    flex-direction: column;
+}
+.Sign form h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+}
+.Sign form p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 8px 0;
+}
+.Sign form input{
+    background: #f4f5f7e8;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px;
+}
+.Sign form button{
+    background-color: var(--black-gray);
+    border-radius: 7px;
+    color: var(--white);
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+.Sign form button:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.ErrorP{
+    color: red;
+}

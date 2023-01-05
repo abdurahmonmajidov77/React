@@ -1,0 +1,84 @@
+.Project{
+    width: 100%;
+}
+.Project h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin: 15px 0;
+}
+.ProNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.ProNav button{
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px 15px;
+    margin: 10px;
+    line-height: 42px;
+    color: #FFFFFF;
+    border: 1px solid var(--gray);
+    border-radius: 25px;
+}
+.ProNav button:hover{
+    border: 1px solid white;
+}
+.Project ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Project li{
+    width: 400px;
+    position: relative;
+    height: 310px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project li img{
+    width: 400px;
+    position: absolute;
+    z-index: 0;
+}
+.Project li .LiTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    display: none;
+}
+.Project li:hover{
+    opacity: .8;
+}
+.Project li:hover .LiTexts{
+    display: flex;
+    transition: .8;
+    z-index: 4;
+}
+.Project li .LiTexts h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.Project li .LiTexts button{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2px 10px;
+    margin: 10px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.Project li .LiTexts button:hover{
+    opacity: .6;
+}

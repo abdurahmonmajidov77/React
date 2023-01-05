@@ -1,0 +1,50 @@
+.style .container{
+    padding: 2% 7%;
+}
+.style .speaks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.style .speaks .speak{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--black-gray);
+}
+.style .speaks .speak:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.05);
+}
+.style .speaks .speak img{
+    width: 300px;
+    margin-right: 20px;
+}
+.style .speaks .speak .speakTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.style .speaks .speak .speakTexts p{
+    color: var(--black-gray);
+    opacity: 0.6;
+    margin: 5px 0;
+    width: 100px;
+}
+.style .speaks .speak .speakTexts span{
+    display: flex;
+    align-items: center;
+}
+.style .speaks .speak .speakTexts span i{
+    color: var(--red);
+}
+.style .speaks .speak .speakTexts span p{
+    text-decoration-line: line-through;
+    font-size: 13px;
+}
+.style .speaks .speak .speakTexts span i:nth-child(5){
+    color: var(--black-gray);
+}

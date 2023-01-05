@@ -1,0 +1,82 @@
+{
+    "Navbar":{
+        "0": "Bosh Sahifa",
+        "1": "Sayt Haqida",
+        "2": "Mahsulot",
+        "3": "Blog",
+        "4": "Do'kon",
+        "5": "Biz bilan Bog'lanish"
+    },
+    "Header":{
+        "0": "Yoqimli Brandlar",
+        "1": "Qiziqarli joy",
+        "2": "butun oilaga xarid qilish uchun.",
+        "3": "1500-yillardan beri foydalanilgan Lorem Ipsumning standart qismi qiziquvchilar uchun quyida keltirilgan.",
+        "4": "Hoziroq xarid qiling"
+    },
+    "Style":{
+        "0": "Har doim modada!",
+        "1": "Qiziqqanlar uchun quyida Lorem Ipsumning standart qismi. Qiziqqanlar uchun standart to'plam."
+    },
+    "Dron":{
+        "0": "Faqat bugun 20% gacha chegirmaga ega bo'ling!",
+        "1": "Faqat bugun 30% gacha chegirmaga ega bo'ling!",
+        "2": "4K HDR ixcham DRONE",
+        "3": "4K HDR ixcham Camera",
+        "4": "Xarid qilish"
+    },
+    "Opa":{
+        "0": "Mahsulotlar haqida",
+        "1": "Mahsulotlar haqida",
+        "2": "Lorem Ipsum parchalarining ko'plab variantlari mavjud, ammo ularning aksariyati biron bir shaklda o'zgarishlarga duchor bo'lgan, hazil yoki tasodifiy so'zlar, hatto bir oz ko'rinmaydi. Agar siz Lorem Ipsum parchasidan foydalanmoqchi bo'lsangiz, matn o'rtasida hech qanday noqulay narsa yashiringanligiga ishonch hosil qilishingiz kerak.",
+        "3": "Lorem Ipsum parchalarining ko'plab variantlari mavjud",
+        "4": "Matn o'rtasida Lorem sharmandalik parchalarining ko'plab variantlari mavjud.",
+        "5": "O'tishlarning ko'p xilma-xilligi mavjud."
+    },
+    "New":{
+        "0": "Yangi mahsulotlar",
+        "1": "Ommabop mahsulotlar",
+        "2": "Yaqinda kelgan",
+        "3": "eng yaxshi sotuvchilar",
+        "4": "maxsus takliflar",
+        "5": "ichida aks ettirilgan",
+        "6": "Faqat bugundan 10% gacha chegirmaga ega bo'ling!",
+        "7": "Faqat bugundan 20% gacha chegirmaga ega bo'ling!",
+        "8": "Faqat bugundan 50% gacha chegirmaga ega bo'ling!",
+        "9": "Apple Mouse",
+        "10": "Qora iPhone Kalonkasi",
+        "11": "iOS Keyboard",
+        "12": "Mackbook Pro",
+        "13": "Qora Quloqchin",
+        "14": "iPhone Kalonkasi",
+        "15": "hammasini ko'rish"
+    },
+    "Shop":{
+        "0": "Yangi do'kon",
+        "1": "Faktlarning ulkan ombori",
+        "2": "1500-yillardan beri foydalanilgan Lorem Ipsumning standart qismi qiziquvchilar uchun quyida keltirilgan."
+    },
+    "Us":{
+        "0": "Foydalanuvchi bilan aloqa",
+        "1": "Qiziqqanlar uchun biz bilan bog'laning.",
+        "2": "Lorem Ipsumning standart qismi qiziqqanlar uchun quyida keltirilgan.",
+        "3": "E-mail manzilingizni kiriting",
+        "4": "OBUNA BO'LING"
+    },
+    "Foot":{
+        "0": "STORE - 1978 yildan beri butun dunyo bo'ylab modalar do'koni. Biz veb-saytimizda 1000 dan ortiq markali mahsulotlarni sotamiz.",
+        "1": "MA `LUMOT",
+        "2": "Yangi kolleksiya",
+        "3": "Do'kon haqida",
+        "4": "Biz bilan bog'lanish",
+        "5": "So'ngi yangiliklar",
+        "6": "Bizning sayt xaritamiz",
+        "7": "Buyurtmalar tarixi",
+        "8": "FOOTTER MENU",
+        "9": "Foydalanish shartlari",
+        "10": "Mavzuni sotib olish",
+        "11": "FOYDALI LINKLAR",
+        "12": "DO‘KON HAQIDA",
+        "14": "Instagram profile"
+    }
+}
